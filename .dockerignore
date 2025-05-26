@@ -1,0 +1,22 @@
+# Bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Development artifacts
+*.ipynb
+.vscode/
+*.log
+
+# Secret or large files
+.env
+*.csv
+*.pkl
+
+# Git and version control
+.git/
+.gitignore
+
+# Unused or removed folders
+frontend/
+mlflow/mlruns/

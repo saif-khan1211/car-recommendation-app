@@ -1,0 +1,9 @@
+model:
+  path: backend/model/car_model.pkl  # Path to your saved trained model file
+
+data:
+  path: backend/model/cleaned_cars.csv  # Path to the cleaned dataset (optional but helpful)
+
+api:
+  host: 0.0.0.0  # Listen on all available network interfaces (good for Docker/local testing)
+  port: 5001    # Port to run your Flask server on
