@@ -6,3 +6,5 @@ joblib
 pyyaml
 openai
 numpy==1.23.5
+python-dotenv
+
