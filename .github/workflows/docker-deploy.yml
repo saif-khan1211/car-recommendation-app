@@ -18,7 +18,11 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      - name: Deploy with Dockerfile
+      - name: Build Docker image
+        run: |
+          docker build -t car-max-app .
+
+      - name: Deploy using Dockerfile
         uses: azure/webapps-deploy@v2
         with:
           app-name: car-max-saif123
